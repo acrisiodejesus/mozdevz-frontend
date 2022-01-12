@@ -6,6 +6,7 @@ export const Container = styled.aside`
   flex-wrap: wrap;
   gap: 1rem;
   
+  
   @media (min-width: 720px){
     justify-content: center;
     width: 60%;
@@ -23,7 +24,7 @@ export const LogoCard = styled.aside`
   @media (min-width: 720px){
     flex-basis: 150px;
     img{
-      width: 200px;
+      width: 150px;
     }
   }
   
